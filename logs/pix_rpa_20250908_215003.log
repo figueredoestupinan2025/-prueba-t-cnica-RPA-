@@ -1,0 +1,42 @@
+21:50:03 | PIX_RPA_MAIN | INFO | 🔍 Validando entorno PIX RPA...
+21:50:03 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: data/
+21:50:03 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: reports/
+21:50:03 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: logs/
+21:50:03 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: evidencias/
+21:50:03 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: config/
+21:50:03 | PIX_RPA_MAIN | INFO |   ✓ Dependencias críticas verificadas
+21:50:03 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: Consumo de API pública
+21:50:04 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: Almacenamiento en base de datos
+21:50:04 | PIX_RPA_MAIN | INFO | Productos insertados en BD: 0
+21:50:04 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: Generación de reporte Excel
+21:50:04 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: Subida a OneDrive
+21:50:04 | PIX_RPA_MAIN | WARNING | ⚠️ OneDrive no configurado o fallo de autenticación, se omite
+21:50:04 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: Automatización web (formulario)
+21:50:04 | PIX_RPA_MAIN | INFO | Usando WebFormManager basado en .env para envío de formulario
+21:50:04 | WDM | INFO | ====== WebDriver manager ======
+21:50:05 | WDM | INFO | Get LATEST chromedriver version for google-chrome
+21:50:05 | WDM | INFO | Get LATEST chromedriver version for google-chrome
+21:50:06 | WDM | INFO | There is no [win64] chromedriver "139.0.7258.154" for browser google-chrome "139.0.7258" in cache
+21:50:06 | WDM | INFO | Get LATEST chromedriver version for google-chrome
+21:50:07 | WDM | INFO | WebDriver version 139.0.7258.154 selected
+21:50:07 | WDM | INFO | Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.154/win32/chromedriver-win32.zip
+21:50:07 | WDM | INFO | About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.154/win32/chromedriver-win32.zip
+21:50:07 | WDM | INFO | Driver downloading response is 200
+21:50:07 | WDM | INFO | Get LATEST chromedriver version for google-chrome
+21:50:09 | WDM | INFO | Driver has been saved in cache [C:\Users\User\.wdm\drivers\chromedriver\win64\139.0.7258.154]
+21:50:12 | WebFormManager | INFO | ✅ ChromeDriver configurado correctamente
+21:50:13 | WebFormManager | INFO | 🌐 Navegando a: https://httpbin.org/post
+21:50:16 | WebFormManager | INFO | 📸 Screenshot guardado: evidencias\screenshots\before_upload.png
+21:50:16 | WebFormManager | INFO | 📎 Intentando subir archivo: Reporte_2025-09-08.xlsx
+21:50:26 | WebFormManager | ERROR | ❌ No se encontró input de archivo
+21:50:26 | WebFormManager | INFO | 📸 Screenshot guardado: evidencias\screenshots\after_upload.png
+21:50:28 | WebFormManager | INFO | 🔒 Navegador cerrado
+21:50:28 | PIX_RPA_MAIN | WARNING | Formulario web (env) no pudo enviarse
+21:50:28 | PIX_RPA_MAIN | INFO | 🚀 PASO 6: Registro de evidencias
+21:50:28 | PIX_RPA_MAIN | INFO | ✅ Evidencias registradas en: c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_21-50-28.json
+21:50:28 | PIX_RPA_MAIN | INFO | ================================================================================
+21:50:28 | PIX_RPA_MAIN | INFO | PROCESO PIX RPA FINALIZADO
+21:50:28 | PIX_RPA_MAIN | INFO | Tiempo total: 24.64 seg
+21:50:28 | PIX_RPA_MAIN | INFO | Productos procesados: 20
+21:50:28 | PIX_RPA_MAIN | INFO | Archivos generados: ['c:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\data\\raw\\Productos_2025-09-08.json', 'c:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\reports\\Reporte_2025-09-08.xlsx']
+21:50:28 | PIX_RPA_MAIN | INFO | ================================================================================

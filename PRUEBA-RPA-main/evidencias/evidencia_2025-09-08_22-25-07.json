@@ -1,0 +1,71 @@
+{
+  "evidence_version": 1,
+  "started_at": "2025-09-08T22:24:55",
+  "finished_at": "2025-09-08T22:25:07",
+  "duration_seconds": 11.67,
+  "process_stats": {
+    "productos_procesados": 20,
+    "pasos_completados": 0,
+    "archivos_generados": [
+      "c:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\data\\raw\\Productos_2025-09-08.json",
+      "c:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\reports\\Reporte_2025-09-08.xlsx"
+    ],
+    "evidencias_capturadas": 0
+  },
+  "events": [
+    {
+      "timestamp": "2025-09-08T22:24:56",
+      "stage": "API_CONSUMPTION",
+      "success": true,
+      "metadata": {
+        "count": 20
+      }
+    },
+    {
+      "timestamp": "2025-09-08T22:24:56",
+      "stage": "DATABASE_INSERT",
+      "success": true,
+      "metadata": {
+        "inserted": 0
+      }
+    },
+    {
+      "timestamp": "2025-09-08T22:24:56",
+      "stage": "ONEDRIVE_UPLOAD",
+      "success": false,
+      "metadata": {
+        "reason": "auth_failed"
+      }
+    },
+    {
+      "timestamp": "2025-09-08T22:25:07",
+      "stage": "WEB_FORM",
+      "success": false,
+      "metadata": {
+        "file": "c:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\reports\\Reporte_2025-09-08.xlsx",
+        "mode": "env"
+      }
+    }
+  ],
+  "files": [
+    {
+      "timestamp": "2025-09-08T22:24:56",
+      "operation": "JSON_BACKUP",
+      "filepath": "c:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\data\\raw\\Productos_2025-09-08.json",
+      "exists": true,
+      "file_size": 12889,
+      "success": true,
+      "extra": {}
+    },
+    {
+      "timestamp": "2025-09-08T22:24:56",
+      "operation": "EXCEL_REPORT",
+      "filepath": "c:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\reports\\Reporte_2025-09-08.xlsx",
+      "exists": true,
+      "file_size": 10407,
+      "success": true,
+      "extra": {}
+    }
+  ],
+  "logs_hint": "c:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\logs"
+}

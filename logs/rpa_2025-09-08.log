@@ -1,0 +1,384 @@
+2025-09-08 21:36:15 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 21:36:15 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 21:36:15 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 21:36:15 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 21:36:15 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 21:36:16 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=645.6
+2025-09-08 21:36:16 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 21:36:16 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 21:36:16 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 21:36:16 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 21:36:16 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 21:36:16 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 21:36:16 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 21:36:16 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 21:36:16 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 21:36:16 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 21:36:16 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 21:36:16 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 21:36:16 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 21:36:16 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10408 | success=True
+2025-09-08 21:36:16 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 21:36:16 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10408
+2025-09-08 21:36:16 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 21:36:16 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | reason=not_configured
+2025-09-08 21:36:16 | EvidenceManager | INFO | ✅ Evidencias registradas: c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_21-36-16.json
+2025-09-08 21:50:03 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 21:50:03 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 21:50:03 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 21:50:03 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 21:50:03 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 21:50:04 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=683.32
+2025-09-08 21:50:04 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 21:50:04 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 21:50:04 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 21:50:04 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 21:50:04 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 21:50:04 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 21:50:04 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 21:50:04 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 21:50:04 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 21:50:04 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 21:50:04 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 21:50:04 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 21:50:04 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 21:50:04 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10408 | success=True
+2025-09-08 21:50:04 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 21:50:04 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10408
+2025-09-08 21:50:04 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 21:50:28 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | mode=env
+2025-09-08 21:50:28 | EvidenceManager | INFO | ✅ Evidencias registradas: c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_21-50-28.json
+2025-09-08 22:02:27 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 22:02:27 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 22:02:27 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 22:02:27 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 22:02:27 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 22:02:27 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=615.28
+2025-09-08 22:02:27 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 22:02:27 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 22:02:27 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 22:02:27 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 22:02:27 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 22:02:27 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 22:02:27 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 22:02:27 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 22:02:27 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 22:02:27 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 22:02:27 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 22:02:27 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 22:02:27 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 22:02:27 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10406 | success=True
+2025-09-08 22:02:27 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 22:02:27 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10406
+2025-09-08 22:02:27 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 22:02:38 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | mode=env
+2025-09-08 22:02:38 | EvidenceManager | INFO | ✅ Evidencias registradas: c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_22-02-38.json
+2025-09-08 22:24:55 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 22:24:55 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 22:24:55 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 22:24:55 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 22:24:55 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 22:24:56 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=1090.65
+2025-09-08 22:24:56 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 22:24:56 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 22:24:56 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 22:24:56 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 22:24:56 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 22:24:56 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 22:24:56 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 22:24:56 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 22:24:56 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 22:24:56 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 22:24:56 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 22:24:56 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 22:24:56 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 22:24:56 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10407 | success=True
+2025-09-08 22:24:56 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 22:24:56 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10407
+2025-09-08 22:24:56 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 22:25:07 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | mode=env
+2025-09-08 22:25:07 | EvidenceManager | INFO | ✅ Evidencias registradas: c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_22-25-07.json
+2025-09-08 22:55:07 | DatabaseManager | INFO | ✅ Conexión a BD establecida | db_path=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\database\productos.db
+2025-09-08 22:55:07 | DatabaseManager | INFO | 🗄️  Tabla 'Productos' verificada/creada
+2025-09-08 22:55:07 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 22:55:07 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 22:55:07 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 22:55:08 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=655.23
+2025-09-08 22:55:08 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 22:55:08 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 22:55:08 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 22:55:08 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 22:55:08 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 22:55:08 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 22:55:08 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_JSON_UPLOAD | success=False | file=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 22:55:08 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 22:55:08 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 22:55:08 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 22:55:08 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10416 | success=True
+2025-09-08 22:55:08 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 22:55:08 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10416
+2025-09-08 22:55:08 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 22:55:18 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | mode=env
+2025-09-08 22:55:18 | EvidenceManager | INFO | ✅ Evidencias registradas: c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_22-55-18.json
+2025-09-08 23:08:47 | DatabaseManager | INFO | ✅ Conexión a BD establecida | db_path=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\database\productos.db
+2025-09-08 23:08:47 | DatabaseManager | INFO | 🗄️  Tabla 'Productos' verificada/creada
+2025-09-08 23:08:47 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 23:08:47 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 23:08:47 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 23:08:48 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=1055.78
+2025-09-08 23:08:48 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 23:08:48 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 23:08:48 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 23:08:48 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 23:08:48 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 23:08:48 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 23:08:48 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_JSON_UPLOAD | success=False | file=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 23:08:48 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 23:08:48 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 23:08:48 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 23:08:48 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10417 | success=True
+2025-09-08 23:08:48 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 23:08:48 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10417
+2025-09-08 23:08:48 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 23:08:59 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | mode=env
+2025-09-08 23:08:59 | EvidenceManager | INFO | ✅ Evidencias registradas: c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_23-08-59.json
+2025-09-08 23:27:08 | APIConsumer | INFO | ✅ API está disponible
+2025-09-08 23:27:08 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products/categories | url=https://fakestoreapi.com/products/categories | method=GET | status_code=200 | response_time_ms=None
+2025-09-08 23:27:08 | APIConsumer | INFO | Obtenidas 4 categorías
+2025-09-08 23:27:08 | DatabaseManager | INFO | ✅ Conexión a BD establecida | db_path=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\database\productos.db
+2025-09-08 23:27:08 | DatabaseManager | INFO | 🗄️  Tabla 'Productos' verificada/creada
+2025-09-08 23:27:08 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 23:27:08 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=7734 | success=True
+2025-09-08 23:27:08 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=1
+2025-09-08 23:27:08 | WebAutomator | INFO | Configurando WebDriver...
+2025-09-08 23:27:11 | WebAutomator | INFO | ✅ WebDriver configurado exitosamente
+2025-09-08 23:27:11 | WebTest | INFO | ✅ Test configuración WebDriver exitoso
+2025-09-08 23:31:10 | DatabaseManager | INFO | ✅ Conexión a BD establecida | db_path=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\database\productos.db
+2025-09-08 23:31:10 | DatabaseManager | INFO | 🗄️  Tabla 'Productos' verificada/creada
+2025-09-08 23:31:10 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 23:31:10 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 23:31:10 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 23:31:11 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=639.33
+2025-09-08 23:31:11 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 23:31:11 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 23:31:11 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 23:31:11 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 23:31:11 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 23:31:11 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 23:31:11 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_JSON_UPLOAD | success=False | file=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 23:31:11 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 23:31:11 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 23:31:11 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 23:31:11 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10415 | success=True
+2025-09-08 23:31:11 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 23:31:11 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10415
+2025-09-08 23:31:11 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 23:31:11 | WebAutomator | INFO | 🚀 PASO 6: Envío de formulario web - INICIADO
+2025-09-08 23:31:11 | WebAutomator | INFO | Configurando WebDriver...
+2025-09-08 23:31:14 | WebAutomator | INFO | ✅ WebDriver configurado exitosamente
+2025-09-08 23:31:14 | WebAutomator | INFO | Navegando a: https://docs.google.com/forms/d/e/1FAIpQLSdVQEHNQsSIBN3Tl1bEBJaABs_3Mg4Wv_Wbg1oXnFM7wsrjUA/viewform?usp=dialog
+2025-09-08 23:31:17 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_inicial.png
+2025-09-08 23:31:17 | WebAutomator | INFO | Procesando Google Form...
+2025-09-08 23:31:28 | WebAutomator | ERROR | Error en Google Form: No se encontró campo de subida de archivos
+2025-09-08 23:31:28 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_error.png
+2025-09-08 23:31:30 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | mode=settings
+2025-09-08 23:31:30 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | error=Error enviando formulario web
+2025-09-08 23:31:30 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | formulario_error.png | success=True | exists=True | file_size=53985
+2025-09-08 23:31:30 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | formulario_inicial.png | success=True | exists=True | file_size=52235
+2025-09-08 23:31:30 | EvidenceManager | INFO | ✅ Evidencias registradas: c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_23-31-30.json
+2025-09-08 23:33:34 | DatabaseManager | INFO | ✅ Conexión a BD establecida | db_path=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\database\productos.db
+2025-09-08 23:33:34 | DatabaseManager | INFO | 🗄️  Tabla 'Productos' verificada/creada
+2025-09-08 23:33:34 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 23:33:34 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 23:33:34 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 23:33:35 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=1023.24
+2025-09-08 23:33:35 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 23:33:35 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 23:33:35 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 23:33:35 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 23:33:35 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 23:33:35 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 23:33:35 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 23:33:35 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 23:33:35 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 23:33:35 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10416 | success=True
+2025-09-08 23:33:35 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 23:33:35 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10416
+2025-09-08 23:33:35 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 23:33:35 | WebAutomator | INFO | 🚀 PASO 6: Envío de formulario web - INICIADO
+2025-09-08 23:33:35 | WebAutomator | INFO | Configurando WebDriver...
+2025-09-08 23:33:38 | WebAutomator | INFO | ✅ WebDriver configurado exitosamente
+2025-09-08 23:33:38 | WebAutomator | INFO | Navegando a: https://docs.google.com/forms/d/e/1FAIpQLSdVQEHNQsSIBN3Tl1bEBJaABs_3Mg4Wv_Wbg1oXnFM7wsrjUA/viewform?usp=dialog
+2025-09-08 23:33:40 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_inicial.png
+2025-09-08 23:33:40 | WebAutomator | INFO | Procesando Google Form...
+2025-09-08 23:33:51 | WebAutomator | ERROR | Error en Google Form: No se encontró campo de subida de archivos
+2025-09-08 23:33:51 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_error.png
+2025-09-08 23:33:53 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | mode=settings
+2025-09-08 23:37:39 | DatabaseManager | INFO | ✅ Conexión a BD establecida | db_path=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\database\productos.db
+2025-09-08 23:37:39 | DatabaseManager | INFO | 🗄️  Tabla 'Productos' verificada/creada
+2025-09-08 23:37:39 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 23:37:39 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 23:37:39 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 23:37:39 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=631.07
+2025-09-08 23:37:39 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 23:37:39 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 23:37:39 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 23:37:39 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 23:37:39 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 23:37:39 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 23:37:39 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 23:37:39 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 23:37:39 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 23:37:39 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10418 | success=True
+2025-09-08 23:37:39 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 23:37:39 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10418
+2025-09-08 23:37:39 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 23:37:39 | WebAutomator | INFO | 🚀 PASO 6: Envío de formulario web - INICIADO
+2025-09-08 23:37:39 | WebAutomator | INFO | Configurando WebDriver...
+2025-09-08 23:37:42 | WebAutomator | INFO | ✅ WebDriver configurado exitosamente
+2025-09-08 23:37:42 | WebAutomator | INFO | Navegando a: https://docs.google.com/forms/d/e/1FAIpQLSdVQEHNQsSIBN3Tl1bEBJaABs_3Mg4Wv_Wbg1oXnFM7wsrjUA/viewform?usp=dialog
+2025-09-08 23:37:45 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_inicial.png
+2025-09-08 23:37:45 | WebAutomator | INFO | ⏳ Pausa para login/revisión manual: 120s (habilitable con ALLOW_MANUAL_LOGIN)
+2025-09-08 23:37:45 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_login.png
+2025-09-08 23:39:45 | WebAutomator | INFO | Procesando Google Form...
+2025-09-08 23:40:05 | WebAutomator | ERROR | Error en Google Form: No se encontró campo de subida de archivos
+2025-09-08 23:40:05 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_error.png
+2025-09-08 23:40:07 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | mode=settings
+2025-09-08 23:41:36 | DatabaseManager | INFO | ✅ Conexión a BD establecida | db_path=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\database\productos.db
+2025-09-08 23:41:36 | DatabaseManager | INFO | 🗄️  Tabla 'Productos' verificada/creada
+2025-09-08 23:41:36 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 23:41:36 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 23:41:36 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 23:41:37 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=1066.18
+2025-09-08 23:41:37 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 23:41:37 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 23:41:37 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 23:41:37 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 23:41:37 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 23:41:37 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 23:41:37 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 23:41:37 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 23:41:37 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 23:41:37 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10418 | success=True
+2025-09-08 23:41:37 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 23:41:37 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10418
+2025-09-08 23:41:37 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 23:41:37 | WebAutomator | INFO | 🚀 PASO 6: Envío de formulario web - INICIADO
+2025-09-08 23:41:37 | WebAutomator | INFO | Configurando WebDriver...
+2025-09-08 23:41:40 | WebAutomator | INFO | ✅ WebDriver configurado exitosamente
+2025-09-08 23:41:40 | WebAutomator | INFO | Navegando a: https://docs.google.com/forms/d/e/1FAIpQLSdVQEHNQsSIBN3Tl1bEBJaABs_3Mg4Wv_Wbg1oXnFM7wsrjUA/viewform?usp=dialog
+2025-09-08 23:41:43 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_inicial.png
+2025-09-08 23:41:43 | WebAutomator | INFO | ⏳ Pausa para login/revisión manual: 120s (habilitable con ALLOW_MANUAL_LOGIN)
+2025-09-08 23:41:43 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_login.png
+2025-09-08 23:43:43 | WebAutomator | INFO | Procesando Google Form...
+2025-09-08 23:43:54 | WebAutomator | ERROR | Error en Google Form: No se encontró campo de subida de archivos
+2025-09-08 23:43:54 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_error.png
+2025-09-08 23:43:56 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | mode=settings
+2025-09-08 23:49:24 | DatabaseManager | INFO | ✅ Conexión a BD establecida | db_path=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\database\productos.db
+2025-09-08 23:49:24 | DatabaseManager | INFO | 🗄️  Tabla 'Productos' verificada/creada
+2025-09-08 23:49:24 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 23:49:24 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 23:49:24 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 23:49:25 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=1095.71
+2025-09-08 23:49:25 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 23:49:25 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 23:49:25 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 23:49:25 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 23:49:25 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 23:49:25 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 23:49:25 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 23:49:25 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 23:49:25 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 23:49:25 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10415 | success=True
+2025-09-08 23:49:25 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 23:49:25 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10415
+2025-09-08 23:49:25 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 23:49:25 | WebAutomator | INFO | 🚀 PASO 6: Envío de formulario web - INICIADO
+2025-09-08 23:49:25 | WebAutomator | INFO | Configurando WebDriver...
+2025-09-08 23:49:28 | WebAutomator | INFO | ✅ WebDriver configurado exitosamente
+2025-09-08 23:49:28 | WebAutomator | INFO | Navegando a: https://docs.google.com/forms/d/e/1FAIpQLSdVQEHNQsSIBN3Tl1bEBJaABs_3Mg4Wv_Wbg1oXnFM7wsrjUA/viewform?usp=dialog
+2025-09-08 23:49:31 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_inicial.png
+2025-09-08 23:49:31 | WebAutomator | INFO | ⏳ Pausa para login/revisión manual: 120s (habilitable con ALLOW_MANUAL_LOGIN)
+2025-09-08 23:49:31 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_login.png
+2025-09-08 23:51:31 | WebAutomator | INFO | Procesando Google Form...
+2025-09-08 23:51:41 | WebAutomator | ERROR | Error en Google Form: No se encontró campo de subida de archivos
+2025-09-08 23:51:42 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_error.png
+2025-09-08 23:51:44 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | mode=settings
+2025-09-08 23:57:16 | DatabaseManager | INFO | ✅ Conexión a BD establecida | db_path=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\database\productos.db
+2025-09-08 23:57:16 | DatabaseManager | INFO | 🗄️  Tabla 'Productos' verificada/creada
+2025-09-08 23:57:16 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 23:57:16 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 23:57:16 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 23:57:17 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=1107.99
+2025-09-08 23:57:17 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 23:57:17 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 23:57:17 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 23:57:17 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 23:57:17 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 23:57:17 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 23:57:17 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 23:57:17 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 23:57:17 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 23:57:17 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10417 | success=True
+2025-09-08 23:57:17 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 23:57:17 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10417
+2025-09-08 23:57:17 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 23:57:17 | WebAutomator | INFO | 🚀 PASO 6: Envío de formulario web - INICIADO
+2025-09-08 23:57:17 | WebAutomator | INFO | Configurando WebDriver...
+2025-09-08 23:57:21 | WebAutomator | INFO | ✅ WebDriver configurado exitosamente
+2025-09-08 23:57:21 | WebAutomator | INFO | Navegando a: https://docs.google.com/forms/d/e/1FAIpQLSdVQEHNQsSIBN3Tl1bEBJaABs_3Mg4Wv_Wbg1oXnFM7wsrjUA/viewform
+2025-09-08 23:57:24 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_inicial.png
+2025-09-08 23:57:24 | WebAutomator | INFO | ⏳ Pausa para login/revisión manual: 120s (habilitable con ALLOW_MANUAL_LOGIN)
+2025-09-08 23:57:24 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_login.png
+2025-09-08 23:59:24 | WebAutomator | INFO | Procesando Google Form...
+2025-09-08 23:59:24 | WebAutomator | ERROR | Error en Google Form: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=139.0.7258.140); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xd1a8a3+63283]
+	GetHandleVerifier [0x0xd1a8e4+63348]
+	(No symbol) [0x0xb53e43]
+	(No symbol) [0x0xb43790]
+	(No symbol) [0x0xb61602]
+	(No symbol) [0x0xbc7cdc]
+	(No symbol) [0x0xbe1ff9]
+	(No symbol) [0x0xbc1216]
+	(No symbol) [0x0xb90855]
+	(No symbol) [0x0xb916f4]
+	GetHandleVerifier [0x0xf8bb43+2623955]
+	GetHandleVerifier [0x0xf86daa+2604090]
+	GetHandleVerifier [0x0xd4069a+218410]
+	GetHandleVerifier [0x0xd30ed8+154984]
+	GetHandleVerifier [0x0xd3742d+180925]
+	GetHandleVerifier [0x0xd222b8+94536]
+	GetHandleVerifier [0x0xd22442+94930]
+	GetHandleVerifier [0x0xd0d5ea+9338]
+	BaseThreadInitThunk [0x0x75bd7ba9+25]
+	RtlInitializeExceptionChain [0x0x7703c3ab+107]
+	RtlClearBits [0x0x7703c32f+191]
+
+2025-09-08 23:59:24 | WebAutomator | ERROR | Error tomando screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xd1a8a3+63283]
+	GetHandleVerifier [0x0xd1a8e4+63348]
+	(No symbol) [0x0xb53ca0]
+	(No symbol) [0x0xb8fb48]
+	(No symbol) [0x0xbc12d6]
+	(No symbol) [0x0xbbceb5]
+	(No symbol) [0x0xbbc436]
+	(No symbol) [0x0xb25755]
+	(No symbol) [0x0xb25cae]
+	(No symbol) [0x0xb2613d]
+	GetHandleVerifier [0x0xf8bb43+2623955]
+	GetHandleVerifier [0x0xf86daa+2604090]
+	GetHandleVerifier [0x0xd4069a+218410]
+	GetHandleVerifier [0x0xd30ed8+154984]
+	GetHandleVerifier [0x0xd3742d+180925]
+	(No symbol) [0x0xb25420]
+	(No symbol) [0x0xb24c36]
+	GetHandleVerifier [0x0x10c68fc+3913612]
+	BaseThreadInitThunk [0x0x75bd7ba9+25]
+	RtlInitializeExceptionChain [0x0x7703c3ab+107]
+	RtlClearBits [0x0x7703c32f+191]
+
+2025-09-08 23:59:26 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | mode=settings
