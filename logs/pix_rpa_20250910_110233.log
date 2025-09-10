@@ -1,0 +1,13 @@
+11:02:33 | PIX_RPA_MAIN | INFO | 🚀 Inicializando PIX RPA Process
+11:02:33 | PIX_RPA_MAIN | INFO | ✓ Gestores principales inicializados
+11:02:33 | PIX_RPA_MAIN | INFO | ✓ Gestores opcionales inicializados
+11:02:33 | PIX_RPA_MAIN | INFO | 🚀 Iniciando proceso PIX RPA
+11:02:33 | PIX_RPA_MAIN | INFO | 🔍 Validando entorno PIX RPA...
+11:02:33 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: data/
+11:02:33 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: reports/
+11:02:33 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: logs/
+11:02:33 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: evidencias/
+11:02:33 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: config/
+11:02:33 | PIX_RPA_MAIN | INFO |   ✓ Dependencias críticas verificadas
+11:02:33 | PIX_RPA_MAIN | ERROR |   ✗ Archivos faltantes: ['modules/api_consumer.py', 'modules/database_manager.py', 'modules/excel_generator.py']
+11:02:33 | PIX_RPA_MAIN | ERROR | ❌ Error validando entorno

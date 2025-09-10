@@ -1,0 +1,151 @@
+2025-09-10 10:57:38 | DatabaseManager | INFO | ✅ Conexión a BD establecida | db_path=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/database/productos.db
+2025-09-10 10:57:38 | DatabaseManager | INFO | 🗄️  Tabla 'Productos' verificada/creada con índices optimizados
+2025-09-10 10:57:38 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-10 10:57:38 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-10 10:57:38 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-10 10:57:39 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=324.05
+2025-09-10 10:57:39 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-10 10:57:39 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/raw/Productos_2025-09-10.json | file_size_bytes=12643 | success=True
+2025-09-10 10:57:39 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-10 10:57:39 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/raw/Productos_2025-09-10.json
+2025-09-10 10:57:39 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-10 10:57:39 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-10.json | success=True | exists=True | file_size=12643
+2025-09-10 10:57:39 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-10 10:57:39 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-10 10:57:39 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-10 10:57:39 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx | file_size_bytes=10396 | success=True
+2025-09-10 10:57:39 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx | productos=20
+2025-09-10 10:57:39 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-10.xlsx | success=True | exists=True | file_size=10396
+2025-09-10 10:57:39 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=disabled
+2025-09-10 10:57:39 | WebAutomator | INFO | 🚀 PASO 6: Envío de formulario web - INICIADO
+2025-09-10 10:57:39 | WebAutomator | INFO | 📎 Se adjuntará la última captura: Captura de pantalla 2025-09-09 005411.png
+2025-09-10 10:57:39 | WebAutomator | INFO | Configurando WebDriver...
+2025-09-10 10:57:41 | WebAutomator | ERROR | Error configurando WebDriver: [Errno 8] Exec format error: '/home/camper/.wdm/drivers/chromedriver/linux64/134.0.6998.165/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'
+2025-09-10 10:57:41 | WebAutomator | ERROR | Error enviando formulario: [Errno 8] Exec format error: '/home/camper/.wdm/drivers/chromedriver/linux64/134.0.6998.165/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'
+2025-09-10 10:57:41 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx | mode=settings
+2025-09-10 10:57:41 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | Captura de pantalla 2025-09-09 005411.png | success=True | exists=True | file_size=92178
+2025-09-10 10:57:41 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | formulario_inicial.png | success=True | exists=True | file_size=52235
+2025-09-10 10:57:41 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | formulario_login.png | success=True | exists=True | file_size=52607
+2025-09-10 10:57:41 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | formulario_error.png | success=True | exists=True | file_size=56407
+2025-09-10 10:57:41 | EvidenceManager | INFO | ✅ Evidencias registradas: /home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/evidencias/evidencia_2025-09-10_10-57-41.json
+2025-09-10 10:58:51 | DatabaseManager | INFO | ✅ Conexión a BD establecida | db_path=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/database/productos.db
+2025-09-10 10:58:51 | DatabaseManager | INFO | 🗄️  Tabla 'Productos' verificada/creada con índices optimizados
+2025-09-10 10:58:51 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-10 10:58:51 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-10 10:58:51 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-10 10:58:51 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=710.52
+2025-09-10 10:58:51 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-10 10:58:51 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/raw/Productos_2025-09-10.json | file_size_bytes=12643 | success=True
+2025-09-10 10:58:51 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-10 10:58:51 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/raw/Productos_2025-09-10.json
+2025-09-10 10:58:51 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-10 10:58:51 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-10.json | success=True | exists=True | file_size=12643
+2025-09-10 10:58:51 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-10 10:58:51 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-10 10:58:51 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-10 10:58:51 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx | file_size_bytes=10395 | success=True
+2025-09-10 10:58:51 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx | productos=20
+2025-09-10 10:58:51 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-10.xlsx | success=True | exists=True | file_size=10395
+2025-09-10 10:58:51 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=disabled
+2025-09-10 10:58:51 | WebAutomator | INFO | 🚀 PASO 6: Envío de formulario web - INICIADO
+2025-09-10 10:58:51 | WebAutomator | INFO | 📎 Se adjuntará la última captura: Captura de pantalla 2025-09-09 005411.png
+2025-09-10 10:58:51 | WebAutomator | INFO | Configurando WebDriver...
+2025-09-10 10:58:53 | WebAutomator | INFO | ✅ WebDriver configurado exitosamente
+2025-09-10 10:58:53 | WebAutomator | INFO | Navegando a: https://docs.google.com/forms/d/e/1FAIpQLSdVQEHNQsSIBN3Tl1bEBJaABs_3Mg4Wv_Wbg1oXnFM7wsrjUA/viewform
+2025-09-10 10:58:55 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_inicial.png
+2025-09-10 10:58:55 | WebAutomator | INFO | Procesando Google Form...
+2025-09-10 10:59:48 | WebAutomator | INFO | ℹ️ Formulario sin campo de archivo; se omite adjuntar y se continúa.
+2025-09-10 11:01:18 | WebAutomator | ERROR | Error en Google Form: No se encontró botón de envío
+2025-09-10 11:01:18 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_error.png
+2025-09-10 11:01:18 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx | mode=settings
+2025-09-10 11:01:18 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | Captura de pantalla 2025-09-09 005411.png | success=True | exists=True | file_size=92178
+2025-09-10 11:01:18 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | formulario_inicial.png | success=True | exists=True | file_size=56989
+2025-09-10 11:01:18 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | formulario_login.png | success=True | exists=True | file_size=52607
+2025-09-10 11:01:18 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | formulario_error.png | success=True | exists=True | file_size=64054
+2025-09-10 11:01:18 | EvidenceManager | INFO | ✅ Evidencias registradas: /home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/evidencias/evidencia_2025-09-10_11-01-18.json
+2025-09-10 11:11:38 | DatabaseManager | INFO | ✅ Conexión a BD establecida | db_path=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/database/productos.db
+2025-09-10 11:11:38 | DatabaseManager | INFO | 🗄️  Tabla 'Productos' verificada/creada con índices optimizados
+2025-09-10 11:11:38 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-10 11:11:38 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-10 11:11:38 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-10 11:11:38 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=429.91
+2025-09-10 11:11:38 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-10 11:11:38 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/raw/Productos_2025-09-10.json | file_size_bytes=12643 | success=True
+2025-09-10 11:11:38 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-10 11:11:38 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/raw/Productos_2025-09-10.json
+2025-09-10 11:11:38 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-10 11:11:38 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-10.json | success=True | exists=True | file_size=12643
+2025-09-10 11:11:38 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-10 11:11:38 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-10 11:11:38 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-10 11:11:38 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx | file_size_bytes=10394 | success=True
+2025-09-10 11:11:38 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx | productos=20
+2025-09-10 11:11:38 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-10.xlsx | success=True | exists=True | file_size=10394
+2025-09-10 11:11:38 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=disabled
+2025-09-10 11:11:38 | WebAutomator | INFO | 🚀 PASO 6: Envío de formulario web - INICIADO
+2025-09-10 11:11:38 | WebAutomator | INFO | 📎 Se adjuntará la última captura: formulario_error.png
+2025-09-10 11:11:38 | WebAutomator | INFO | Configurando WebDriver...
+2025-09-10 11:11:40 | WebAutomator | INFO | ✅ WebDriver configurado exitosamente
+2025-09-10 11:11:40 | WebAutomator | INFO | Navegando a: https://docs.google.com/forms/d/e/1FAIpQLSdVQEHNQsSIBN3Tl1bEBJaABs_3Mg4Wv_Wbg1oXnFM7wsrjUA/viewform
+2025-09-10 11:11:42 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_inicial.png
+2025-09-10 11:11:42 | WebAutomator | INFO | Procesando Google Form...
+2025-09-10 11:12:35 | WebAutomator | INFO | ℹ️ Formulario sin campo de archivo; se omite adjuntar y se continúa.
+2025-09-10 11:13:49 | WebAutomator | ERROR | Error en Google Form: No se encontró botón de envío
+2025-09-10 11:13:49 | WebAutomator | ERROR | Error tomando screenshot: Message: invalid session id
+Stacktrace:
+#0 0x5904a0defffa <unknown>
+#1 0x5904a08ae7c3 <unknown>
+#2 0x5904a08f15df <unknown>
+#3 0x5904a0926196 <unknown>
+#4 0x5904a0920813 <unknown>
+#5 0x5904a091fae5 <unknown>
+#6 0x5904a0877528 <unknown>
+#7 0x5904a0db742b <unknown>
+#8 0x5904a0dbb2ec <unknown>
+#9 0x5904a0d9ea22 <unknown>
+#10 0x5904a0dbbe64 <unknown>
+#11 0x5904a0d82bef <unknown>
+#12 0x5904a0875f5b <unknown>
+#13 0x717e75829d90 <unknown>
+
+2025-09-10 11:13:49 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx | mode=settings
+2025-09-10 11:13:49 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | Captura de pantalla 2025-09-09 005411.png | success=True | exists=True | file_size=92178
+2025-09-10 11:13:49 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | formulario_inicial.png | success=True | exists=True | file_size=56989
+2025-09-10 11:13:49 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | formulario_login.png | success=True | exists=True | file_size=52607
+2025-09-10 11:13:49 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | formulario_error.png | success=True | exists=True | file_size=64054
+2025-09-10 11:13:49 | EvidenceManager | INFO | ✅ Evidencias registradas: /home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/evidencias/evidencia_2025-09-10_11-13-49.json
+2025-09-10 11:16:44 | DatabaseManager | INFO | ✅ Conexión a BD establecida | db_path=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/database/productos.db
+2025-09-10 11:16:44 | DatabaseManager | INFO | 🗄️  Tabla 'Productos' verificada/creada con índices optimizados
+2025-09-10 11:16:44 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-10 11:16:44 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-10 11:16:44 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-10 11:16:44 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=438.69
+2025-09-10 11:16:44 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-10 11:16:44 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/raw/Productos_2025-09-10.json | file_size_bytes=12643 | success=True
+2025-09-10 11:16:44 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-10 11:16:44 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/raw/Productos_2025-09-10.json
+2025-09-10 11:16:44 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-10 11:16:44 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-10.json | success=True | exists=True | file_size=12643
+2025-09-10 11:16:44 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-10 11:16:44 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-10 11:16:44 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-10 11:16:44 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx | file_size_bytes=10396 | success=True
+2025-09-10 11:16:44 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx | productos=20
+2025-09-10 11:16:44 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-10.xlsx | success=True | exists=True | file_size=10396
+2025-09-10 11:16:44 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=disabled
+2025-09-10 11:16:44 | WebAutomator | INFO | 🚀 PASO 6: Envío de formulario web - INICIADO
+2025-09-10 11:16:44 | WebAutomator | INFO | 📎 Se adjuntará la última captura: formulario_inicial.png
+2025-09-10 11:16:44 | WebAutomator | INFO | Configurando WebDriver...
+2025-09-10 11:16:46 | WebAutomator | INFO | ✅ WebDriver configurado exitosamente
+2025-09-10 11:16:46 | WebAutomator | INFO | Navegando a: https://docs.google.com/forms/d/e/1FAIpQLSdVQEHNQsSIBN3Tl1bEBJaABs_3Mg4Wv_Wbg1oXnFM7wsrjUA/viewform
+2025-09-10 11:16:48 | WebAutomator | INFO | 📸 Screenshot guardado: formulario_inicial.png
+2025-09-10 11:16:48 | WebAutomator | INFO | Procesando Google Form...
+2025-09-10 11:16:51 | WebAutomator | INFO | ℹ️ Formulario sin campo de archivo; se omite adjuntar y se continúa.
+2025-09-10 11:16:51 | WebAutomator | ERROR | Error en Google Form: No se encontró botón de envío
+2025-09-10 11:16:51 | WebAutomator | ERROR | Error tomando screenshot: HTTPConnectionPool(host='localhost', port=49361): Max retries exceeded with url: /session/20083d64d97689eec20e79fd25c3cdbc/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ae6549e7340>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-09-10 11:16:51 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | file=/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx | mode=settings
+2025-09-10 11:16:51 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | Captura de pantalla 2025-09-09 005411.png | success=True | exists=True | file_size=92178
+2025-09-10 11:16:51 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | formulario_inicial.png | success=True | exists=True | file_size=56989
+2025-09-10 11:16:51 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | formulario_login.png | success=True | exists=True | file_size=52607
+2025-09-10 11:16:51 | EvidenceManager | INFO | EVIDENCE FILE: SCREENSHOT | formulario_error.png | success=True | exists=True | file_size=64054
+2025-09-10 11:16:51 | EvidenceManager | INFO | ✅ Evidencias registradas: /home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/evidencias/evidencia_2025-09-10_11-16-51.json

@@ -1,0 +1,70 @@
+{
+  "evidence_version": 1,
+  "started_at": "2025-09-08T20:45:10",
+  "finished_at": "2025-09-08T20:45:11",
+  "duration_seconds": 0.76,
+  "process_stats": {
+    "productos_procesados": 20,
+    "pasos_completados": 0,
+    "archivos_generados": [
+      "C:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\data\\raw\\Productos_2025-09-08.json",
+      "C:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\reports\\Reporte_2025-09-08.xlsx"
+    ],
+    "evidencias_capturadas": 0
+  },
+  "events": [
+    {
+      "timestamp": "2025-09-08T20:45:10",
+      "stage": "API_CONSUMPTION",
+      "success": true,
+      "metadata": {
+        "count": 20
+      }
+    },
+    {
+      "timestamp": "2025-09-08T20:45:10",
+      "stage": "DATABASE_INSERT",
+      "success": true,
+      "metadata": {
+        "inserted": 0
+      }
+    },
+    {
+      "timestamp": "2025-09-08T20:45:11",
+      "stage": "ONEDRIVE_UPLOAD",
+      "success": false,
+      "metadata": {
+        "reason": "auth_failed"
+      }
+    },
+    {
+      "timestamp": "2025-09-08T20:45:11",
+      "stage": "WEB_FORM",
+      "success": false,
+      "metadata": {
+        "reason": "not_configured"
+      }
+    }
+  ],
+  "files": [
+    {
+      "timestamp": "2025-09-08T20:45:10",
+      "operation": "JSON_BACKUP",
+      "filepath": "C:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\data\\raw\\Productos_2025-09-08.json",
+      "exists": true,
+      "file_size": 12889,
+      "success": true,
+      "extra": {}
+    },
+    {
+      "timestamp": "2025-09-08T20:45:11",
+      "operation": "EXCEL_REPORT",
+      "filepath": "C:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\reports\\Reporte_2025-09-08.xlsx",
+      "exists": true,
+      "file_size": 10407,
+      "success": true,
+      "extra": {}
+    }
+  ],
+  "logs_hint": "C:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\logs"
+}

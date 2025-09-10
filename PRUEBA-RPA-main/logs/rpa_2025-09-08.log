@@ -1,0 +1,856 @@
+2025-09-08 02:30:04 | PIX_RPA_MAIN | INFO | INICIANDO EJECUCIÓN DEL PROCESO RPA
+2025-09-08 02:30:04 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: CONSUMO DE API PÚBLICA - INICIADO
+2025-09-08 02:30:05 | APIConsumer | WARNING | ⚠️ API respondió con código: 403
+2025-09-08 02:30:05 | PIX_RPA_MAIN | ERROR | ❌ PASO 1: CONSUMO DE API PÚBLICA - ERROR | error=Fake Store API no está disponible
+2025-09-08 02:30:05 | PIX_RPA_MAIN | ERROR | ERROR CRÍTICO EN PROCESO RPA: Fallo crítico en Paso 1: Consumo de API
+2025-09-08 02:30:05 | PIX_RPA_MAIN | ERROR | ================================================================================
+2025-09-08 02:30:05 | PIX_RPA_MAIN | ERROR | PROCESO RPA PIX FALLÓ
+2025-09-08 02:30:05 | PIX_RPA_MAIN | ERROR | ================================================================================
+2025-09-08 02:30:05 | PIX_RPA_MAIN | ERROR | Error: Fallo crítico en Paso 1: Consumo de API
+2025-09-08 02:30:05 | PIX_RPA_MAIN | ERROR | Revisar logs anteriores para detalles específicos
+2025-09-08 02:30:05 | PIX_RPA_MAIN | ERROR | ================================================================================
+2025-09-08 02:34:10 | PIX_RPA_MAIN | INFO | INICIANDO EJECUCIÓN DEL PROCESO RPA
+2025-09-08 02:34:10 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: CONSUMO DE API PÚBLICA - INICIADO
+2025-09-08 02:34:11 | APIConsumer | INFO | ✅ API está disponible
+2025-09-08 02:34:11 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:34:11 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:34:11 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=178.01
+2025-09-08 02:34:11 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:34:11 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:34:11 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:34:11 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | ✅ PASO 1: CONSUMO DE API PÚBLICA - COMPLETADO | productos_obtenidos=20 | archivo_json=Productos_2025-09-08.json | api_endpoint=https://fakestoreapi.com/products
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: ALMACENAMIENTO EN BASE DE DATOS - INICIADO
+2025-09-08 02:34:11 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 02:34:11 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 02:34:11 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:34:11 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:34:11 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=174.71
+2025-09-08 02:34:11 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:34:11 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:34:11 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:34:11 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:34:11 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 02:34:11 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=20 | execution_time_ms=None
+2025-09-08 02:34:11 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=20
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | ✅ PASO 2: ALMACENAMIENTO EN BASE DE DATOS - COMPLETADO | productos_insertados=20 | productos_duplicados_omitidos=0 | tabla=Productos
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: GENERACIÓN DE REPORTE EXCEL - INICIADO
+2025-09-08 02:34:11 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 02:34:11 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 02:34:11 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 02:34:11 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10408 | success=True
+2025-09-08 02:34:11 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | ✅ PASO 3: GENERACIÓN DE REPORTE EXCEL - COMPLETADO | archivo_excel=Reporte_2025-09-08.xlsx | tamaño_bytes=10408 | ubicación=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports | productos_incluidos=20
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: SUBIDA A ONEDRIVE - INICIADO
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | PASO 4: SUBIDA A ONEDRIVE - OMITIDO | motivo=OneDrive no configurado (opcional para prueba)
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - INICIADO
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - OMITIDO | motivo=Formulario web no configurado (crear en Google Forms)
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | 🚀 PASO 6: REGISTRO DE EVIDENCIAS - INICIADO
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | ✅ PASO 6: REGISTRO DE EVIDENCIAS - COMPLETADO | evidencias_capturadas=0 | archivos=[]
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | PROCESO RPA PIX FINALIZADO
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | Tiempo total de ejecución: 1.52 segundos
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | Pasos completados: 3/6 (50.0%)
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | Productos procesados: 20
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO | Estado de pasos:
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO |   ✓ Consumo de API
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO |   ✓ Base de Datos
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO |   ✓ Reporte Excel
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO |   ✗ OneDrive
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO |   ✗ Formulario Web
+2025-09-08 02:34:11 | PIX_RPA_MAIN | INFO |   ✗ Evidencias
+2025-09-08 02:34:11 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:34:11 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:34:12 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=174.97
+2025-09-08 02:34:12 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:34:12 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:34:12 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:34:12 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:34:12 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:34:12 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:34:12 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=175.37
+2025-09-08 02:34:12 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:34:12 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:34:12 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:34:12 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:34:12 | PIX_RPA_MAIN | INFO | JSON generado: Productos_2025-09-08.json
+2025-09-08 02:34:12 | PIX_RPA_MAIN | ERROR | ERROR CRÍTICO EN PROCESO RPA: ExcelReportGenerator.generate_report() missing 2 required positional arguments: 'products' and 'statistics'
+2025-09-08 02:34:12 | PIX_RPA_MAIN | ERROR | ================================================================================
+2025-09-08 02:34:12 | PIX_RPA_MAIN | ERROR | PROCESO RPA PIX FALLÓ
+2025-09-08 02:34:12 | PIX_RPA_MAIN | ERROR | ================================================================================
+2025-09-08 02:34:12 | PIX_RPA_MAIN | ERROR | Error: ExcelReportGenerator.generate_report() missing 2 required positional arguments: 'products' and 'statistics'
+2025-09-08 02:34:12 | PIX_RPA_MAIN | ERROR | Revisar logs anteriores para detalles específicos
+2025-09-08 02:34:12 | PIX_RPA_MAIN | ERROR | ================================================================================
+2025-09-08 02:37:18 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 02:37:18 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 02:38:22 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 02:38:22 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 02:38:22 | PIX_RPA_MAIN | INFO | INICIANDO EJECUCIÓN DEL PROCESO RPA
+2025-09-08 02:38:22 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: CONSUMO DE API PÚBLICA - INICIADO
+2025-09-08 02:38:23 | APIConsumer | INFO | ✅ API está disponible
+2025-09-08 02:38:23 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:38:23 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:38:23 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=580.93
+2025-09-08 02:38:23 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:38:23 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:38:23 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:38:23 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:38:23 | PIX_RPA_MAIN | INFO | ✅ PASO 1: CONSUMO DE API PÚBLICA - COMPLETADO | productos_obtenidos=20 | archivo_json=Productos_2025-09-08.json | api_endpoint=https://fakestoreapi.com/products
+2025-09-08 02:38:23 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: ALMACENAMIENTO EN BASE DE DATOS - INICIADO
+2025-09-08 02:38:23 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 02:38:23 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 02:38:23 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:38:23 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:38:23 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=203.11
+2025-09-08 02:38:23 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:38:23 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:38:23 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:38:23 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:38:23 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 02:38:23 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 02:38:23 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 02:38:23 | PIX_RPA_MAIN | INFO | ✅ PASO 2: ALMACENAMIENTO EN BASE DE DATOS - COMPLETADO | productos_insertados=0 | productos_duplicados_omitidos=20 | tabla=Productos
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: GENERACIÓN DE REPORTE EXCEL - INICIADO
+2025-09-08 02:38:24 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 02:38:24 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 02:38:24 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 02:38:24 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10408 | success=True
+2025-09-08 02:38:24 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: SUBIDA A ONEDRIVE - INICIADO
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | PASO 4: SUBIDA A ONEDRIVE - OMITIDO | motivo=OneDrive no configurado (opcional para prueba)
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - INICIADO
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - OMITIDO | motivo=Formulario web no configurado (crear en Google Forms)
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | 🚀 PASO 6: REGISTRO DE EVIDENCIAS - INICIADO
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | ✅ PASO 6: REGISTRO DE EVIDENCIAS - COMPLETADO | evidencias_capturadas=0 | archivos=[]
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | PROCESO RPA PIX FINALIZADO
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | Tiempo total de ejecución: 1.97 segundos
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | Pasos completados: 2/6 (33.3%)
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | Productos procesados: 20
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | Estado de pasos:
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO |   ✓ Consumo de API
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO |   ✓ Base de Datos
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO |   ✗ Reporte Excel
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO |   ✗ OneDrive
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO |   ✗ Formulario Web
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO |   ✗ Evidencias
+2025-09-08 02:38:24 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:38:24 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:38:24 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=203.08
+2025-09-08 02:38:24 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:38:24 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:38:24 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:38:24 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:38:24 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:38:24 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:38:24 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=201.13
+2025-09-08 02:38:24 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:38:24 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:38:24 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:38:24 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:38:24 | PIX_RPA_MAIN | INFO | JSON generado: Productos_2025-09-08.json
+2025-09-08 02:38:24 | PIX_RPA_MAIN | ERROR | ERROR CRÍTICO EN PROCESO RPA: ExcelReportGenerator.generate_report() missing 2 required positional arguments: 'products' and 'statistics'
+2025-09-08 02:38:24 | PIX_RPA_MAIN | ERROR | ================================================================================
+2025-09-08 02:38:24 | PIX_RPA_MAIN | ERROR | PROCESO RPA PIX FALLÓ
+2025-09-08 02:38:24 | PIX_RPA_MAIN | ERROR | ================================================================================
+2025-09-08 02:38:24 | PIX_RPA_MAIN | ERROR | Error: ExcelReportGenerator.generate_report() missing 2 required positional arguments: 'products' and 'statistics'
+2025-09-08 02:38:24 | PIX_RPA_MAIN | ERROR | Revisar logs anteriores para detalles específicos
+2025-09-08 02:38:24 | PIX_RPA_MAIN | ERROR | ================================================================================
+2025-09-08 02:38:24 | PIX_RPA_MAIN | WARNING | Error limpiando recursos: 'PIXRPAProductsProcess' object has no attribute 'web_automator'
+2025-09-08 02:41:04 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 02:41:04 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 02:41:04 | PIX_RPA_MAIN | INFO | INICIANDO EJECUCIÓN DEL PROCESO RPA
+2025-09-08 02:41:04 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: CONSUMO DE API PÚBLICA - INICIADO
+2025-09-08 02:41:05 | APIConsumer | INFO | ✅ API está disponible
+2025-09-08 02:41:05 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:41:05 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:41:06 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=190.37
+2025-09-08 02:41:06 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:41:06 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:41:06 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:41:06 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | ✅ PASO 1: CONSUMO DE API PÚBLICA - COMPLETADO | productos_obtenidos=20 | archivo_json=Productos_2025-09-08.json | api_endpoint=https://fakestoreapi.com/products
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: ALMACENAMIENTO EN BASE DE DATOS - INICIADO
+2025-09-08 02:41:06 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 02:41:06 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 02:41:06 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:41:06 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:41:06 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=191.0
+2025-09-08 02:41:06 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:41:06 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:41:06 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:41:06 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:41:06 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 02:41:06 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 02:41:06 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | ✅ PASO 2: ALMACENAMIENTO EN BASE DE DATOS - COMPLETADO | productos_insertados=0 | productos_duplicados_omitidos=20 | tabla=Productos
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: GENERACIÓN DE REPORTE EXCEL - INICIADO
+2025-09-08 02:41:06 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 02:41:06 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 02:41:06 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 02:41:06 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10408 | success=True
+2025-09-08 02:41:06 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: SUBIDA A ONEDRIVE - INICIADO
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | PASO 4: SUBIDA A ONEDRIVE - OMITIDO | motivo=OneDrive no configurado (opcional para prueba)
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - INICIADO
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - OMITIDO | motivo=Formulario web no configurado (crear en Google Forms)
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | 🚀 PASO 6: REGISTRO DE EVIDENCIAS - INICIADO
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | ✅ PASO 6: REGISTRO DE EVIDENCIAS - COMPLETADO | evidencias_capturadas=0 | archivos=[]
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | PROCESO RPA PIX FINALIZADO
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | Tiempo total de ejecución: 1.47 segundos
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | Pasos completados: 2/6 (33.3%)
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | Productos procesados: 20
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | Estado de pasos:
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO |   ✓ Consumo de API
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO |   ✓ Base de Datos
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO |   ✗ Reporte Excel
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO |   ✗ OneDrive
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO |   ✗ Formulario Web
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO |   ✗ Evidencias
+2025-09-08 02:41:06 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:41:06 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:41:06 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=187.37
+2025-09-08 02:41:06 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:41:06 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:41:06 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:41:06 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:41:06 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:41:06 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:41:06 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=189.39
+2025-09-08 02:41:06 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:41:06 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:41:06 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:41:06 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | JSON generado: Productos_2025-09-08.json
+2025-09-08 02:41:06 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 02:41:06 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10408 | success=True
+2025-09-08 02:41:06 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | Excel generado: Reporte_2025-09-08.xlsx
+2025-09-08 02:41:06 | PIX_RPA_MAIN | INFO | ================================================================================
+2025-09-08 02:43:52 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 02:43:52 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 02:43:52 | PIX_RPA_MAIN | INFO | INICIANDO EJECUCIÓN DEL PROCESO RPA
+2025-09-08 02:43:52 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: CONSUMO DE API PÚBLICA - INICIADO
+2025-09-08 02:43:53 | APIConsumer | INFO | ✅ API está disponible
+2025-09-08 02:43:53 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:43:53 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:43:53 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=210.06
+2025-09-08 02:43:53 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:43:53 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:43:53 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:43:53 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | ✅ PASO 1: CONSUMO DE API PÚBLICA - COMPLETADO | productos_obtenidos=20 | archivo_json=Productos_2025-09-08.json | api_endpoint=https://fakestoreapi.com/products
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: ALMACENAMIENTO EN BASE DE DATOS - INICIADO
+2025-09-08 02:43:53 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 02:43:53 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 02:43:53 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:43:53 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:43:53 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=201.98
+2025-09-08 02:43:53 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:43:53 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:43:53 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:43:53 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:43:53 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 02:43:53 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 02:43:53 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | ✅ PASO 2: ALMACENAMIENTO EN BASE DE DATOS - COMPLETADO | productos_insertados=0 | productos_duplicados_omitidos=20 | tabla=Productos
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: GENERACIÓN DE REPORTE EXCEL - INICIADO
+2025-09-08 02:43:53 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 02:43:53 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 02:43:53 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 02:43:53 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10409 | success=True
+2025-09-08 02:43:53 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: SUBIDA A ONEDRIVE - INICIADO
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | PASO 4: SUBIDA A ONEDRIVE - OMITIDO | motivo=OneDrive no configurado (opcional para prueba)
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - INICIADO
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - OMITIDO | motivo=Formulario web no configurado (crear en Google Forms)
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | 🚀 PASO 6: REGISTRO DE EVIDENCIAS - INICIADO
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | ✅ PASO 6: REGISTRO DE EVIDENCIAS - COMPLETADO | evidencias_capturadas=0 | archivos=[]
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | PROCESO RPA PIX FINALIZADO
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | Tiempo total de ejecución: 1.56 segundos
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | Pasos completados: 2/6 (33.3%)
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | Productos procesados: 20
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO | Estado de pasos:
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO |   ✓ Consumo de API
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO |   ✓ Base de Datos
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO |   ✗ Reporte Excel
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO |   ✗ OneDrive
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO |   ✗ Formulario Web
+2025-09-08 02:43:53 | PIX_RPA_MAIN | INFO |   ✗ Evidencias
+2025-09-08 02:43:53 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:43:53 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:43:54 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=200.77
+2025-09-08 02:43:54 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:43:54 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:43:54 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:43:54 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:43:54 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:43:54 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:43:54 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=199.01
+2025-09-08 02:43:54 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:43:54 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:43:54 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:43:54 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:43:54 | PIX_RPA_MAIN | INFO | JSON generado: Productos_2025-09-08.json
+2025-09-08 02:43:54 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 02:43:54 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10409 | success=True
+2025-09-08 02:43:54 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 02:43:54 | PIX_RPA_MAIN | INFO | Excel generado: Reporte_2025-09-08.xlsx
+2025-09-08 02:43:54 | PIX_RPA_MAIN | INFO | ================================================================================
+2025-09-08 02:49:18 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 02:49:18 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 02:49:18 | PIX_RPA_MAIN | INFO | INICIANDO EJECUCIÓN DEL PROCESO RPA
+2025-09-08 02:49:18 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: CONSUMO DE API PÚBLICA - INICIADO
+2025-09-08 02:49:19 | APIConsumer | INFO | ✅ API está disponible
+2025-09-08 02:49:19 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:49:19 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:49:20 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=571.18
+2025-09-08 02:49:20 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:49:20 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:49:20 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:49:20 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | ✅ PASO 1: CONSUMO DE API PÚBLICA - COMPLETADO | productos_obtenidos=20 | archivo_json=Productos_2025-09-08.json | api_endpoint=https://fakestoreapi.com/products
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: ALMACENAMIENTO EN BASE DE DATOS - INICIADO
+2025-09-08 02:49:20 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 02:49:20 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 02:49:20 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:49:20 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:49:20 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=180.15
+2025-09-08 02:49:20 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:49:20 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:49:20 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:49:20 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:49:20 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 02:49:20 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 02:49:20 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | ✅ PASO 2: ALMACENAMIENTO EN BASE DE DATOS - COMPLETADO | productos_insertados=0 | productos_duplicados_omitidos=20 | tabla=Productos
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: GENERACIÓN DE REPORTE EXCEL - INICIADO
+2025-09-08 02:49:20 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 02:49:20 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 02:49:20 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 02:49:20 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10409 | success=True
+2025-09-08 02:49:20 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: SUBIDA A ONEDRIVE - INICIADO
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | PASO 4: SUBIDA A ONEDRIVE - OMITIDO | motivo=OneDrive no configurado (opcional para prueba)
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - INICIADO
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - OMITIDO | motivo=Formulario web no configurado (crear en Google Forms)
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | 🚀 PASO 6: REGISTRO DE EVIDENCIAS - INICIADO
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | ✅ PASO 6: REGISTRO DE EVIDENCIAS - COMPLETADO | evidencias_capturadas=0 | archivos=[]
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | PROCESO RPA PIX FINALIZADO
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | Tiempo total de ejecución: 1.87 segundos
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | Pasos completados: 2/6 (33.3%)
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | Productos procesados: 20
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | Estado de pasos:
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO |   ✓ Consumo de API
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO |   ✓ Base de Datos
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO |   ✗ Reporte Excel
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO |   ✗ OneDrive
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO |   ✗ Formulario Web
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO |   ✗ Evidencias
+2025-09-08 02:49:20 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:49:20 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:49:20 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=177.79
+2025-09-08 02:49:20 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:49:20 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:49:20 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:49:20 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:49:20 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 02:49:20 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 02:49:20 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=179.0
+2025-09-08 02:49:20 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 02:49:20 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 02:49:20 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 02:49:20 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | JSON generado: Productos_2025-09-08.json
+2025-09-08 02:49:20 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 02:49:20 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10409 | success=True
+2025-09-08 02:49:20 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | Excel generado: Reporte_2025-09-08.xlsx
+2025-09-08 02:49:20 | PIX_RPA_MAIN | INFO | ================================================================================
+2025-09-08 03:13:05 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 03:13:05 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 03:13:05 | PIX_RPA_MAIN | INFO | INICIANDO EJECUCIÓN DEL PROCESO RPA
+2025-09-08 03:13:05 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: CONSUMO DE API PÚBLICA - INICIADO
+2025-09-08 03:13:05 | APIConsumer | INFO | ✅ API está disponible
+2025-09-08 03:13:05 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 03:13:05 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 03:13:06 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=195.3
+2025-09-08 03:13:06 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 03:13:06 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 03:13:06 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 03:13:06 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | ✅ PASO 1: CONSUMO DE API PÚBLICA - COMPLETADO | productos_obtenidos=20 | archivo_json=Productos_2025-09-08.json | api_endpoint=https://fakestoreapi.com/products
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: ALMACENAMIENTO EN BASE DE DATOS - INICIADO
+2025-09-08 03:13:06 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 03:13:06 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 03:13:06 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 03:13:06 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 03:13:06 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=194.36
+2025-09-08 03:13:06 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 03:13:06 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 03:13:06 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 03:13:06 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 03:13:06 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 03:13:06 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 03:13:06 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | ✅ PASO 2: ALMACENAMIENTO EN BASE DE DATOS - COMPLETADO | productos_insertados=0 | productos_duplicados_omitidos=20 | tabla=Productos
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: GENERACIÓN DE REPORTE EXCEL - INICIADO
+2025-09-08 03:13:06 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 03:13:06 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 03:13:06 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 03:13:06 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10408 | success=True
+2025-09-08 03:13:06 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: SUBIDA A ONEDRIVE - INICIADO
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | PASO 4: SUBIDA A ONEDRIVE - OMITIDO | motivo=OneDrive no configurado (opcional para prueba)
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - INICIADO
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - OMITIDO | motivo=Formulario web no configurado (crear en Google Forms)
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | 🚀 PASO 6: REGISTRO DE EVIDENCIAS - INICIADO
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | ✅ PASO 6: REGISTRO DE EVIDENCIAS - COMPLETADO | evidencias_capturadas=0 | archivos=[]
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | PROCESO RPA PIX FINALIZADO
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | Tiempo total de ejecución: 1.14 segundos
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | Pasos completados: 2/6 (33.3%)
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | Productos procesados: 20
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | Estado de pasos:
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO |   ✓ Consumo de API
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO |   ✓ Base de Datos
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO |   ✗ Reporte Excel
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO |   ✗ OneDrive
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO |   ✗ Formulario Web
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO |   ✗ Evidencias
+2025-09-08 03:13:06 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 03:13:06 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 03:13:06 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=191.3
+2025-09-08 03:13:06 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 03:13:06 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 03:13:06 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 03:13:06 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 03:13:06 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 03:13:06 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 03:13:06 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=192.11
+2025-09-08 03:13:06 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 03:13:06 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 03:13:06 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 03:13:06 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | JSON generado: Productos_2025-09-08.json
+2025-09-08 03:13:06 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 03:13:06 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10408 | success=True
+2025-09-08 03:13:06 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | Excel generado: Reporte_2025-09-08.xlsx
+2025-09-08 03:13:06 | PIX_RPA_MAIN | INFO | ================================================================================
+2025-09-08 03:13:25 | OneDriveTest | WARNING | ⚠️ OneDrive no configurado, omitiendo test
+2025-09-08 11:11:07 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 11:11:07 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 11:11:07 | PIX_RPA_MAIN | INFO | INICIANDO EJECUCIÓN DEL PROCESO RPA
+2025-09-08 11:11:07 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: CONSUMO DE API PÚBLICA - INICIADO
+2025-09-08 11:11:08 | APIConsumer | INFO | ✅ API está disponible
+2025-09-08 11:11:08 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:11:08 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:11:08 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=202.01
+2025-09-08 11:11:08 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:11:08 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:11:08 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:11:08 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | ✅ PASO 1: CONSUMO DE API PÚBLICA - COMPLETADO | productos_obtenidos=20 | archivo_json=Productos_2025-09-08.json | api_endpoint=https://fakestoreapi.com/products
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: ALMACENAMIENTO EN BASE DE DATOS - INICIADO
+2025-09-08 11:11:08 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 11:11:08 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 11:11:08 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:11:08 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:11:08 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=201.97
+2025-09-08 11:11:08 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:11:08 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:11:08 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:11:08 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:11:08 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 11:11:08 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 11:11:08 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | ✅ PASO 2: ALMACENAMIENTO EN BASE DE DATOS - COMPLETADO | productos_insertados=0 | productos_duplicados_omitidos=20 | tabla=Productos
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: GENERACIÓN DE REPORTE EXCEL - INICIADO
+2025-09-08 11:11:08 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 11:11:08 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 11:11:08 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 11:11:08 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10407 | success=True
+2025-09-08 11:11:08 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: SUBIDA A ONEDRIVE - INICIADO
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | PASO 4: SUBIDA A ONEDRIVE - OMITIDO | motivo=OneDrive no configurado (opcional para prueba)
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - INICIADO
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - OMITIDO | motivo=Formulario web no configurado (crear en Google Forms)
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | 🚀 PASO 6: REGISTRO DE EVIDENCIAS - INICIADO
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | ✅ PASO 6: REGISTRO DE EVIDENCIAS - COMPLETADO | evidencias_capturadas=0 | archivos=[]
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | PROCESO RPA PIX FINALIZADO
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | Tiempo total de ejecución: 1.40 segundos
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | Pasos completados: 2/6 (33.3%)
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | Productos procesados: 20
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO | Estado de pasos:
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO |   ✓ Consumo de API
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO |   ✓ Base de Datos
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO |   ✗ Reporte Excel
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO |   ✗ OneDrive
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO |   ✗ Formulario Web
+2025-09-08 11:11:08 | PIX_RPA_MAIN | INFO |   ✗ Evidencias
+2025-09-08 11:11:08 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:11:08 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:11:09 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=203.2
+2025-09-08 11:11:09 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:11:09 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:11:09 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:11:09 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:11:09 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:11:09 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:11:09 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=205.11
+2025-09-08 11:11:09 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:11:09 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:11:09 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:11:09 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:11:09 | PIX_RPA_MAIN | INFO | JSON generado: Productos_2025-09-08.json
+2025-09-08 11:11:09 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 11:11:09 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10407 | success=True
+2025-09-08 11:11:09 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 11:11:09 | PIX_RPA_MAIN | INFO | Excel generado: Reporte_2025-09-08.xlsx
+2025-09-08 11:11:09 | PIX_RPA_MAIN | INFO | ================================================================================
+2025-09-08 11:13:27 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 11:13:27 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 11:13:27 | PIX_RPA_MAIN | INFO | INICIANDO EJECUCIÓN DEL PROCESO RPA
+2025-09-08 11:13:27 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: CONSUMO DE API PÚBLICA - INICIADO
+2025-09-08 11:13:27 | APIConsumer | INFO | ✅ API está disponible
+2025-09-08 11:13:27 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:13:27 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:13:28 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=201.58
+2025-09-08 11:13:28 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:13:28 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:13:28 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:13:28 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | ✅ PASO 1: CONSUMO DE API PÚBLICA - COMPLETADO | productos_obtenidos=20 | archivo_json=Productos_2025-09-08.json | api_endpoint=https://fakestoreapi.com/products
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: ALMACENAMIENTO EN BASE DE DATOS - INICIADO
+2025-09-08 11:13:28 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 11:13:28 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 11:13:28 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:13:28 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:13:28 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=200.52
+2025-09-08 11:13:28 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:13:28 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:13:28 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:13:28 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:13:28 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 11:13:28 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 11:13:28 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | ✅ PASO 2: ALMACENAMIENTO EN BASE DE DATOS - COMPLETADO | productos_insertados=0 | productos_duplicados_omitidos=20 | tabla=Productos
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: GENERACIÓN DE REPORTE EXCEL - INICIADO
+2025-09-08 11:13:28 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 11:13:28 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 11:13:28 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 11:13:28 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10408 | success=True
+2025-09-08 11:13:28 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: SUBIDA A ONEDRIVE - INICIADO
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | PASO 4: SUBIDA A ONEDRIVE - OMITIDO | motivo=OneDrive no configurado (opcional para prueba)
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - INICIADO
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - OMITIDO | motivo=Formulario web no configurado (crear en Google Forms)
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | 🚀 PASO 6: REGISTRO DE EVIDENCIAS - INICIADO
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | ✅ PASO 6: REGISTRO DE EVIDENCIAS - COMPLETADO | evidencias_capturadas=0 | archivos=[]
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | PROCESO RPA PIX FINALIZADO
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | Tiempo total de ejecución: 1.08 segundos
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | Pasos completados: 2/6 (33.3%)
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | Productos procesados: 20
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | Estado de pasos:
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO |   ✓ Consumo de API
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO |   ✓ Base de Datos
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO |   ✗ Reporte Excel
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO |   ✗ OneDrive
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO |   ✗ Formulario Web
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO |   ✗ Evidencias
+2025-09-08 11:13:28 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:13:28 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:13:28 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=200.95
+2025-09-08 11:13:28 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:13:28 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:13:28 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:13:28 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:13:28 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:13:28 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:13:28 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=209.4
+2025-09-08 11:13:28 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:13:28 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:13:28 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:13:28 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | JSON generado: Productos_2025-09-08.json
+2025-09-08 11:13:28 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 11:13:28 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10408 | success=True
+2025-09-08 11:13:28 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | Excel generado: Reporte_2025-09-08.xlsx
+2025-09-08 11:13:28 | PIX_RPA_MAIN | INFO | ================================================================================
+2025-09-08 11:19:57 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 11:19:57 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 11:19:57 | PIX_RPA_MAIN | INFO | INICIANDO EJECUCIÓN DEL PROCESO RPA
+2025-09-08 11:19:57 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: CONSUMO DE API PÚBLICA - INICIADO
+2025-09-08 11:19:58 | APIConsumer | INFO | ✅ API está disponible
+2025-09-08 11:19:58 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:19:58 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:19:58 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=204.72
+2025-09-08 11:19:58 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:19:58 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:19:58 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:19:58 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:19:58 | PIX_RPA_MAIN | INFO | ✅ PASO 1: CONSUMO DE API PÚBLICA - COMPLETADO | productos_obtenidos=20 | archivo_json=Productos_2025-09-08.json | api_endpoint=https://fakestoreapi.com/products
+2025-09-08 11:19:58 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: ALMACENAMIENTO EN BASE DE DATOS - INICIADO
+2025-09-08 11:19:58 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 11:19:58 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 11:19:58 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:19:58 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:19:59 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=202.84
+2025-09-08 11:19:59 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:19:59 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:19:59 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:19:59 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:19:59 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 11:19:59 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 11:19:59 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | ✅ PASO 2: ALMACENAMIENTO EN BASE DE DATOS - COMPLETADO | productos_insertados=0 | productos_duplicados_omitidos=20 | tabla=Productos
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: GENERACIÓN DE REPORTE EXCEL - INICIADO
+2025-09-08 11:19:59 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 11:19:59 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 11:19:59 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 11:19:59 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10407 | success=True
+2025-09-08 11:19:59 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: SUBIDA A ONEDRIVE - INICIADO
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | PASO 4: SUBIDA A ONEDRIVE - OMITIDO | motivo=OneDrive no configurado (opcional para prueba)
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - INICIADO
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - OMITIDO | motivo=Formulario web no configurado (crear en Google Forms)
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | 🚀 PASO 6: REGISTRO DE EVIDENCIAS - INICIADO
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | ✅ PASO 6: REGISTRO DE EVIDENCIAS - COMPLETADO | evidencias_capturadas=0 | archivos=[]
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | PROCESO RPA PIX FINALIZADO
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | Tiempo total de ejecución: 1.24 segundos
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | Pasos completados: 2/6 (33.3%)
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | Productos procesados: 20
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | Estado de pasos:
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO |   ✓ Consumo de API
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO |   ✓ Base de Datos
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO |   ✗ Reporte Excel
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO |   ✗ OneDrive
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO |   ✗ Formulario Web
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO |   ✗ Evidencias
+2025-09-08 11:19:59 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:19:59 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:19:59 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=204.53
+2025-09-08 11:19:59 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:19:59 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:19:59 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:19:59 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:19:59 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:19:59 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:19:59 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=203.56
+2025-09-08 11:19:59 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:19:59 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:19:59 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:19:59 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | JSON generado: Productos_2025-09-08.json
+2025-09-08 11:19:59 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 11:19:59 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10407 | success=True
+2025-09-08 11:19:59 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | Excel generado: Reporte_2025-09-08.xlsx
+2025-09-08 11:19:59 | PIX_RPA_MAIN | INFO | ================================================================================
+2025-09-08 11:47:09 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 11:47:09 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 11:47:09 | PIX_RPA_MAIN | INFO | INICIANDO EJECUCIÓN DEL PROCESO RPA
+2025-09-08 11:47:09 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: CONSUMO DE API PÚBLICA - INICIADO
+2025-09-08 11:47:10 | APIConsumer | INFO | ✅ API está disponible
+2025-09-08 11:47:10 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:47:10 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:47:10 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=203.51
+2025-09-08 11:47:10 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:47:10 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:47:10 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:47:10 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:47:10 | PIX_RPA_MAIN | INFO | ✅ PASO 1: CONSUMO DE API PÚBLICA - COMPLETADO | productos_obtenidos=20 | archivo_json=Productos_2025-09-08.json | api_endpoint=https://fakestoreapi.com/products
+2025-09-08 11:47:10 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: ALMACENAMIENTO EN BASE DE DATOS - INICIADO
+2025-09-08 11:47:10 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 11:47:10 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 11:47:10 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:47:10 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:47:11 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=210.96
+2025-09-08 11:47:11 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:47:11 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:47:11 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:47:11 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:47:11 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 11:47:11 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 11:47:11 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | ✅ PASO 2: ALMACENAMIENTO EN BASE DE DATOS - COMPLETADO | productos_insertados=0 | productos_duplicados_omitidos=20 | tabla=Productos
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: GENERACIÓN DE REPORTE EXCEL - INICIADO
+2025-09-08 11:47:11 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 11:47:11 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 11:47:11 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 11:47:11 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10407 | success=True
+2025-09-08 11:47:11 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: SUBIDA A ONEDRIVE - INICIADO
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | PASO 4: SUBIDA A ONEDRIVE - OMITIDO | motivo=OneDrive no configurado (opcional para prueba)
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - INICIADO
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | PASO 5: AUTOMATIZACIÓN WEB - FORMULARIO - OMITIDO | motivo=Formulario web no configurado (crear en Google Forms)
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | 🚀 PASO 6: REGISTRO DE EVIDENCIAS - INICIADO
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | ✅ PASO 6: REGISTRO DE EVIDENCIAS - COMPLETADO | evidencias_capturadas=0 | archivos=[]
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | PROCESO RPA PIX FINALIZADO
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | --------------------------------------------------------------------------------
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | Tiempo total de ejecución: 1.57 segundos
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | Pasos completados: 2/6 (33.3%)
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | Productos procesados: 20
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | Estado de pasos:
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO |   ✓ Consumo de API
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO |   ✓ Base de Datos
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO |   ✗ Reporte Excel
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO |   ✗ OneDrive
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO |   ✗ Formulario Web
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO |   ✗ Evidencias
+2025-09-08 11:47:11 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:47:11 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:47:11 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=202.85
+2025-09-08 11:47:11 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:47:11 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:47:11 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:47:11 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:47:11 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 11:47:11 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 11:47:11 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=206.01
+2025-09-08 11:47:11 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 11:47:11 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 11:47:11 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 11:47:11 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | JSON generado: Productos_2025-09-08.json
+2025-09-08 11:47:11 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 11:47:11 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10407 | success=True
+2025-09-08 11:47:11 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | Excel generado: Reporte_2025-09-08.xlsx
+2025-09-08 11:47:11 | PIX_RPA_MAIN | INFO | ================================================================================
+2025-09-08 12:55:21 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 12:55:21 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 12:55:21 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 12:55:21 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 12:55:21 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 12:55:22 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=1050.89
+2025-09-08 12:55:22 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 12:55:22 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 12:55:22 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 12:55:22 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 12:55:22 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 12:55:22 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 12:55:22 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 12:55:22 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 12:55:22 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 12:55:22 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 12:55:22 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10408 | success=True
+2025-09-08 12:55:22 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 13:06:43 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 13:06:43 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 13:06:43 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 13:06:43 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 13:06:43 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 13:06:44 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=991.62
+2025-09-08 13:06:44 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 13:06:44 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 13:06:44 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 13:06:44 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 13:06:44 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 13:06:44 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 13:06:44 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 13:06:44 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 13:06:44 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 13:06:44 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 13:06:44 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 13:06:44 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 13:06:44 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 13:06:44 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10409 | success=True
+2025-09-08 13:06:44 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 13:06:44 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10409
+2025-09-08 13:06:44 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 13:06:44 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | reason=not_configured
+2025-09-08 13:06:44 | EvidenceManager | INFO | ✅ Evidencias registradas: C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_13-06-44.json
+2025-09-08 13:10:36 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 13:10:36 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 13:10:36 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 13:10:36 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 13:10:36 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 13:10:37 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=658.21
+2025-09-08 13:10:37 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 13:10:37 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 13:10:37 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 13:10:37 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 13:10:37 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 13:10:37 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 13:10:37 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 13:10:37 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 13:10:37 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 13:10:37 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 13:10:37 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 13:10:37 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 13:10:37 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 13:10:37 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10407 | success=True
+2025-09-08 13:10:37 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 13:10:37 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10407
+2025-09-08 13:10:37 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 13:10:37 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | reason=not_configured
+2025-09-08 13:10:37 | EvidenceManager | INFO | ✅ Evidencias registradas: C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_13-10-37.json
+2025-09-08 20:45:10 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 20:45:10 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 20:45:10 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 20:45:10 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 20:45:10 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 20:45:10 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=694.3
+2025-09-08 20:45:10 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 20:45:10 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 20:45:10 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 20:45:10 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 20:45:10 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 20:45:10 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 20:45:10 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 20:45:10 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 20:45:10 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 20:45:10 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 20:45:10 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 20:45:10 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 20:45:10 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 20:45:11 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10407 | success=True
+2025-09-08 20:45:11 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 20:45:11 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10407
+2025-09-08 20:45:11 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 20:45:11 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | reason=not_configured
+2025-09-08 20:45:11 | EvidenceManager | INFO | ✅ Evidencias registradas: C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_20-45-11.json
+2025-09-08 20:51:16 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+2025-09-08 20:51:16 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+2025-09-08 20:51:16 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+2025-09-08 20:51:16 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+2025-09-08 20:51:16 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+2025-09-08 20:51:17 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=1022.77
+2025-09-08 20:51:17 | APIConsumer | INFO | ✅ API respondió con 20 productos
+2025-09-08 20:51:17 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+2025-09-08 20:51:17 | APIConsumer | INFO | Procesados 20 de 20 productos
+2025-09-08 20:51:17 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+2025-09-08 20:51:17 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+2025-09-08 20:51:17 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+2025-09-08 20:51:17 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+2025-09-08 20:51:17 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+2025-09-08 20:51:17 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+2025-09-08 20:51:17 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+2025-09-08 20:51:17 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+2025-09-08 20:51:17 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+2025-09-08 20:51:17 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+2025-09-08 20:51:17 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10407 | success=True
+2025-09-08 20:51:17 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+2025-09-08 20:51:17 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10407
+2025-09-08 20:51:17 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+2025-09-08 20:51:17 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | reason=not_configured
+2025-09-08 20:51:17 | EvidenceManager | INFO | ✅ Evidencias registradas: C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_20-51-17.json

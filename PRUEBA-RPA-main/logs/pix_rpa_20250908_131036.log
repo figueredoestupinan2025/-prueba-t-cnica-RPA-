@@ -1,0 +1,48 @@
+13:10:36 | DatabaseManager | INFO | 🚀 PASO 2: Inicialización de base de datos - INICIADO
+13:10:36 | DatabaseManager | INFO | ✅ PASO 2: Inicialización de base de datos - COMPLETADO
+13:10:36 | OneDriveClient | WARNING | ⚠️ OneDrive no está configurado completamente
+13:10:36 | PIX_RPA_MAIN | INFO | 🔍 Validando entorno PIX RPA...
+13:10:36 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: data/
+13:10:36 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: reports/
+13:10:36 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: logs/
+13:10:36 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: evidencias/
+13:10:36 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: config/
+13:10:36 | PIX_RPA_MAIN | INFO |   ✓ Dependencias críticas verificadas
+13:10:36 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: Consumo de API pública
+13:10:36 | APIConsumer | INFO | 🚀 PASO 1: Consumo de API - INICIADO
+13:10:36 | APIConsumer | INFO | Consultando API: https://fakestoreapi.com/products
+13:10:37 | APIConsumer | INFO | API CALL SUCCESS: GET https://fakestoreapi.com/products | url=https://fakestoreapi.com/products | method=GET | status_code=200 | response_time_ms=658.21
+13:10:37 | APIConsumer | INFO | ✅ API respondió con 20 productos
+13:10:37 | APIConsumer | INFO | FILE OPERATION SUCCESS: JSON_BACKUP | operation=JSON_BACKUP | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json | file_size_bytes=12889 | success=True
+13:10:37 | APIConsumer | INFO | Procesados 20 de 20 productos
+13:10:37 | APIConsumer | INFO | ✅ PASO 1: Consumo de API - COMPLETADO | productos_obtenidos=20 | archivo_json=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\data\raw\Productos_2025-09-08.json
+13:10:37 | EvidenceManager | INFO | EVIDENCE EVENT: API_CONSUMPTION | success=True | count=20
+13:10:37 | EvidenceManager | INFO | EVIDENCE FILE: JSON_BACKUP | Productos_2025-09-08.json | success=True | exists=True | file_size=12889
+13:10:37 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: Almacenamiento en base de datos
+13:10:37 | DatabaseManager | INFO | 🚀 PASO 3: Inserción en base de datos - INICIADO
+13:10:37 | DatabaseManager | INFO | DB OPERATION: INSERT_PRODUCTS | operation=INSERT_PRODUCTS | table=Productos | records_affected=0 | execution_time_ms=None
+13:10:37 | DatabaseManager | INFO | ✅ PASO 3: Inserción en base de datos - COMPLETADO | productos_insertados=0
+13:10:37 | PIX_RPA_MAIN | INFO | Productos insertados en BD: 0
+13:10:37 | EvidenceManager | INFO | EVIDENCE EVENT: DATABASE_INSERT | success=True | inserted=0
+13:10:37 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: Generación de reporte Excel
+13:10:37 | DatabaseManager | INFO | Obtenidos 20 productos de la base de datos
+13:10:37 | DatabaseManager | INFO | Estadísticas generadas: 20 productos
+13:10:37 | ExcelGenerator | INFO | 🚀 PASO 4: Generación de reporte Excel - INICIADO
+13:10:37 | ExcelGenerator | INFO | FILE OPERATION SUCCESS: EXCEL_GENERATION | operation=EXCEL_GENERATION | filepath=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | file_size_bytes=10407 | success=True
+13:10:37 | ExcelGenerator | INFO | ✅ PASO 4: Generación de reporte Excel - COMPLETADO | archivo=C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\reports\Reporte_2025-09-08.xlsx | productos=20
+13:10:37 | EvidenceManager | INFO | EVIDENCE FILE: EXCEL_REPORT | Reporte_2025-09-08.xlsx | success=True | exists=True | file_size=10407
+13:10:37 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: Subida a OneDrive
+13:10:37 | PIX_RPA_MAIN | WARNING | ⚠️ OneDrive no configurado o fallo de autenticación, se omite
+13:10:37 | EvidenceManager | INFO | EVIDENCE EVENT: ONEDRIVE_UPLOAD | success=False | reason=auth_failed
+13:10:37 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: Automatización web (formulario)
+13:10:37 | PIX_RPA_MAIN | WARNING | ⚠️ Formulario no configurado, se omite
+13:10:37 | EvidenceManager | INFO | EVIDENCE EVENT: WEB_FORM | success=False | reason=not_configured
+13:10:37 | PIX_RPA_MAIN | INFO | 🚀 PASO 6: Registro de evidencias
+13:10:37 | EvidenceManager | INFO | ✅ Evidencias registradas: C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_13-10-37.json
+13:10:37 | PIX_RPA_MAIN | INFO | ✅ Evidencias registradas en: C:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_13-10-37.json
+13:10:37 | PIX_RPA_MAIN | INFO | ================================================================================
+13:10:37 | PIX_RPA_MAIN | INFO | PROCESO PIX RPA FINALIZADO
+13:10:37 | PIX_RPA_MAIN | INFO | Tiempo total: 0.72 seg
+13:10:37 | PIX_RPA_MAIN | INFO | Productos procesados: 20
+13:10:37 | PIX_RPA_MAIN | INFO | Archivos generados: ['C:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\data\\raw\\Productos_2025-09-08.json', 'C:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\reports\\Reporte_2025-09-08.xlsx']
+13:10:37 | PIX_RPA_MAIN | INFO | ================================================================================

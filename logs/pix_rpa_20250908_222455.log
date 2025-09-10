@@ -1,0 +1,63 @@
+22:24:55 | PIX_RPA_MAIN | INFO | 🔍 Validando entorno PIX RPA...
+22:24:55 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: data/
+22:24:55 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: reports/
+22:24:55 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: logs/
+22:24:55 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: evidencias/
+22:24:55 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: config/
+22:24:55 | PIX_RPA_MAIN | INFO |   ✓ Dependencias críticas verificadas
+22:24:55 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: Consumo de API pública
+22:24:56 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: Almacenamiento en base de datos
+22:24:56 | PIX_RPA_MAIN | INFO | Productos insertados en BD: 0
+22:24:56 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: Generación de reporte Excel
+22:24:56 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: Subida a OneDrive
+22:24:56 | PIX_RPA_MAIN | WARNING | ⚠️ OneDrive no configurado o fallo de autenticación, se omite
+22:24:56 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: Automatización web (formulario)
+22:24:56 | PIX_RPA_MAIN | INFO | Usando WebFormManager basado en .env para envío de formulario
+22:24:56 | WDM | INFO | ====== WebDriver manager ======
+22:24:57 | WDM | INFO | Get LATEST chromedriver version for google-chrome
+22:24:57 | WDM | INFO | Get LATEST chromedriver version for google-chrome
+22:24:58 | WDM | INFO | Driver [C:\Users\User\.wdm\drivers\chromedriver\win64\139.0.7258.154\chromedriver-win32/chromedriver.exe] found in cache
+22:24:59 | WebFormManager | INFO | ✅ ChromeDriver configurado correctamente
+22:25:04 | WebFormManager | ERROR | ❌ Error navegando al formulario: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=139.0.7258.140)
+Stacktrace:
+	GetHandleVerifier [0x0xd7a8a3+63283]
+	GetHandleVerifier [0x0xd7a8e4+63348]
+	(No symbol) [0x0xbb3e43]
+	(No symbol) [0x0xbb156b]
+	(No symbol) [0x0xba4d32]
+	(No symbol) [0x0xba6768]
+	(No symbol) [0x0xba4fc8]
+	(No symbol) [0x0xba4b03]
+	(No symbol) [0x0xba4811]
+	(No symbol) [0x0xba27b4]
+	(No symbol) [0x0xba315b]
+	(No symbol) [0x0xbb785e]
+	(No symbol) [0x0xc432e7]
+	(No symbol) [0x0xc2141c]
+	(No symbol) [0x0xc4271a]
+	(No symbol) [0x0xc21216]
+	(No symbol) [0x0xbf0855]
+	(No symbol) [0x0xbf16f4]
+	GetHandleVerifier [0x0xfebb43+2623955]
+	GetHandleVerifier [0x0xfe6daa+2604090]
+	GetHandleVerifier [0x0xda069a+218410]
+	GetHandleVerifier [0x0xd90ed8+154984]
+	GetHandleVerifier [0x0xd9742d+180925]
+	GetHandleVerifier [0x0xd822b8+94536]
+	GetHandleVerifier [0x0xd82442+94930]
+	GetHandleVerifier [0x0xd6d5ea+9338]
+	BaseThreadInitThunk [0x0x75bd7ba9+25]
+	RtlInitializeExceptionChain [0x0x7703c3ab+107]
+	RtlClearBits [0x0x7703c32f+191]
+
+22:25:07 | WebFormManager | INFO | 🔒 Navegador cerrado
+22:25:07 | PIX_RPA_MAIN | WARNING | Formulario web (env) no pudo enviarse
+22:25:07 | PIX_RPA_MAIN | INFO | 🚀 PASO 6: Registro de evidencias
+22:25:07 | PIX_RPA_MAIN | INFO | ✅ Evidencias registradas en: c:\Users\User\Downloads\PRUEBA-RPA-main\PRUEBA-RPA-main\evidencias\evidencia_2025-09-08_22-25-07.json
+22:25:07 | PIX_RPA_MAIN | INFO | ================================================================================
+22:25:07 | PIX_RPA_MAIN | INFO | PROCESO PIX RPA FINALIZADO
+22:25:07 | PIX_RPA_MAIN | INFO | Tiempo total: 11.67 seg
+22:25:07 | PIX_RPA_MAIN | INFO | Productos procesados: 20
+22:25:07 | PIX_RPA_MAIN | INFO | Archivos generados: ['c:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\data\\raw\\Productos_2025-09-08.json', 'c:\\Users\\User\\Downloads\\PRUEBA-RPA-main\\PRUEBA-RPA-main\\reports\\Reporte_2025-09-08.xlsx']
+22:25:07 | PIX_RPA_MAIN | INFO | ================================================================================

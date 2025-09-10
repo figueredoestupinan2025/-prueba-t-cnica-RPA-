@@ -1,0 +1,19 @@
+00:21:01 | PIX_RPA_MAIN | INFO | 🔍 Validando entorno PIX RPA...
+00:21:01 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: data/
+00:21:01 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: reports/
+00:21:01 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: logs/
+00:21:01 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: evidencias/
+00:21:01 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: config/
+00:21:01 | PIX_RPA_MAIN | INFO |   ✓ Dependencias críticas verificadas
+00:21:01 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: Consumo de API pública
+00:21:02 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: Almacenamiento en base de datos
+00:21:02 | PIX_RPA_MAIN | INFO | Productos insertados en BD: 0
+00:21:02 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: Generación de reporte Excel
+00:21:02 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: Subida a OneDrive
+00:21:02 | PIX_RPA_MAIN | INFO | ☁️ OneDrive deshabilitado por configuración, se omite
+00:21:02 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: Automatización web (formulario)
+00:21:02 | WDM | INFO | ====== WebDriver manager ======
+00:21:03 | WDM | INFO | Get LATEST chromedriver version for google-chrome
+00:21:03 | WDM | INFO | Get LATEST chromedriver version for google-chrome
+00:21:04 | WDM | INFO | Driver [C:\Users\User\.wdm\drivers\chromedriver\win64\139.0.7258.154\chromedriver-win32/chromedriver.exe] found in cache
+00:21:21 | PIX_RPA_MAIN | ERROR | ❌ Error crítico en proceso: Error enviando formulario web

@@ -1,0 +1,45 @@
+10:57:38 | PIX_RPA_MAIN | INFO | 🚀 Inicializando PIX RPA Process
+10:57:38 | PIX_RPA_MAIN | INFO | ✓ Gestores principales inicializados
+10:57:38 | PIX_RPA_MAIN | INFO | ✓ Gestores opcionales inicializados
+10:57:38 | PIX_RPA_MAIN | INFO | 🔍 Validando entorno PIX RPA...
+10:57:38 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: data/
+10:57:38 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: reports/
+10:57:38 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: logs/
+10:57:38 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: evidencias/
+10:57:38 | PIX_RPA_MAIN | INFO |   ✓ Directorio verificado: config/
+10:57:38 | PIX_RPA_MAIN | INFO |   ✓ Dependencias críticas verificadas
+10:57:38 | PIX_RPA_MAIN | INFO | ✅ Validación de entorno completada
+10:57:38 | PIX_RPA_MAIN | INFO | 🚀 PASO 1: Consumo de API pública
+10:57:39 | PIX_RPA_MAIN | INFO | ✅ Productos obtenidos: 20
+10:57:39 | PIX_RPA_MAIN | INFO | ☁️ Subida de JSON a OneDrive deshabilitada o no configurada.
+10:57:39 | PIX_RPA_MAIN | INFO | 🚀 PASO 2: Almacenamiento en base de datos
+10:57:39 | PIX_RPA_MAIN | INFO | ✅ Productos insertados en BD: 0
+10:57:39 | PIX_RPA_MAIN | INFO | 🚀 PASO 3: Generación de reporte Excel
+10:57:39 | PIX_RPA_MAIN | INFO | ✅ Reporte Excel generado: /home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx
+10:57:39 | PIX_RPA_MAIN | INFO | 🚀 PASO 4: Subida a OneDrive
+10:57:39 | PIX_RPA_MAIN | INFO | ☁️ OneDrive deshabilitado por configuración
+10:57:39 | PIX_RPA_MAIN | INFO | 🚀 PASO 5: Automatización web (formulario)
+10:57:39 | WDM | INFO | ====== WebDriver manager ======
+10:57:39 | WDM | INFO | Get LATEST chromedriver version for google-chrome
+10:57:39 | WDM | INFO | Get LATEST chromedriver version for google-chrome
+10:57:39 | WDM | INFO | There is no [linux64] chromedriver "134.0.6998.165" for browser google-chrome "134.0.6998" in cache
+10:57:39 | WDM | INFO | Get LATEST chromedriver version for google-chrome
+10:57:40 | WDM | INFO | WebDriver version 134.0.6998.165 selected
+10:57:40 | WDM | INFO | Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/linux64/chromedriver-linux64.zip
+10:57:40 | WDM | INFO | About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/linux64/chromedriver-linux64.zip
+10:57:40 | WDM | INFO | Driver downloading response is 200
+10:57:41 | WDM | INFO | Get LATEST chromedriver version for google-chrome
+10:57:41 | WDM | INFO | Driver has been saved in cache [/home/camper/.wdm/drivers/chromedriver/linux64/134.0.6998.165]
+10:57:41 | PIX_RPA_MAIN | WARNING | ⚠️ No se pudo enviar el formulario web
+10:57:41 | PIX_RPA_MAIN | INFO | 🚀 PASO 6: Registro de evidencias
+10:57:41 | PIX_RPA_MAIN | INFO | ✅ Evidencias registradas en: /home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/evidencias/evidencia_2025-09-10_10-57-41.json
+10:57:41 | PIX_RPA_MAIN | INFO | ================================================================================
+10:57:41 | PIX_RPA_MAIN | INFO | 🎉 PROCESO PIX RPA FINALIZADO
+10:57:41 | PIX_RPA_MAIN | INFO | ⏱️  Tiempo total: 2.36 segundos
+10:57:41 | PIX_RPA_MAIN | INFO | 📊 Productos procesados: 20
+10:57:41 | PIX_RPA_MAIN | INFO | 📁 Archivos generados: 2
+10:57:41 | PIX_RPA_MAIN | INFO | ✅ Pasos completados: 4/6
+10:57:41 | PIX_RPA_MAIN | INFO | 📂 Archivos creados:
+10:57:41 | PIX_RPA_MAIN | INFO |    • /home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/raw/Productos_2025-09-10.json
+10:57:41 | PIX_RPA_MAIN | INFO |    • /home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx
+10:57:41 | PIX_RPA_MAIN | INFO | ================================================================================

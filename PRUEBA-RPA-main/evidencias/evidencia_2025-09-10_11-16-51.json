@@ -1,0 +1,108 @@
+{
+  "evidence_version": 1,
+  "started_at": "2025-09-10T11:16:44",
+  "finished_at": "2025-09-10T11:16:51",
+  "duration_seconds": 7.22,
+  "process_stats": {
+    "productos_procesados": 20,
+    "pasos_completados": 3,
+    "archivos_generados": [
+      "/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/raw/Productos_2025-09-10.json",
+      "/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx"
+    ],
+    "evidencias_capturadas": 0,
+    "inicio": "2025-09-10T11:16:44.299050"
+  },
+  "events": [
+    {
+      "timestamp": "2025-09-10T11:16:44",
+      "stage": "API_CONSUMPTION",
+      "success": true,
+      "metadata": {
+        "count": 20
+      }
+    },
+    {
+      "timestamp": "2025-09-10T11:16:44",
+      "stage": "DATABASE_INSERT",
+      "success": true,
+      "metadata": {
+        "inserted": 0
+      }
+    },
+    {
+      "timestamp": "2025-09-10T11:16:44",
+      "stage": "ONEDRIVE_UPLOAD",
+      "success": false,
+      "metadata": {
+        "reason": "disabled"
+      }
+    },
+    {
+      "timestamp": "2025-09-10T11:16:51",
+      "stage": "WEB_FORM",
+      "success": false,
+      "metadata": {
+        "file": "/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx",
+        "mode": "settings"
+      }
+    }
+  ],
+  "files": [
+    {
+      "timestamp": "2025-09-10T11:16:44",
+      "operation": "JSON_BACKUP",
+      "filepath": "/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/data/raw/Productos_2025-09-10.json",
+      "exists": true,
+      "file_size": 12643,
+      "success": true,
+      "extra": {}
+    },
+    {
+      "timestamp": "2025-09-10T11:16:44",
+      "operation": "EXCEL_REPORT",
+      "filepath": "/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/reports/Reporte_2025-09-10.xlsx",
+      "exists": true,
+      "file_size": 10396,
+      "success": true,
+      "extra": {}
+    },
+    {
+      "timestamp": "2025-09-10T11:16:51",
+      "operation": "SCREENSHOT",
+      "filepath": "/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/evidencias/Captura de pantalla 2025-09-09 005411.png",
+      "exists": true,
+      "file_size": 92178,
+      "success": true,
+      "extra": {}
+    },
+    {
+      "timestamp": "2025-09-10T11:16:51",
+      "operation": "SCREENSHOT",
+      "filepath": "/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/evidencias/formulario_inicial.png",
+      "exists": true,
+      "file_size": 56989,
+      "success": true,
+      "extra": {}
+    },
+    {
+      "timestamp": "2025-09-10T11:16:51",
+      "operation": "SCREENSHOT",
+      "filepath": "/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/evidencias/formulario_login.png",
+      "exists": true,
+      "file_size": 52607,
+      "success": true,
+      "extra": {}
+    },
+    {
+      "timestamp": "2025-09-10T11:16:51",
+      "operation": "SCREENSHOT",
+      "filepath": "/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/evidencias/formulario_error.png",
+      "exists": true,
+      "file_size": 64054,
+      "success": true,
+      "extra": {}
+    }
+  ],
+  "logs_hint": "/home/camper/Descargas/-prueba-t-cnica-RPA--master/PRUEBA-RPA-main/logs"
+}
